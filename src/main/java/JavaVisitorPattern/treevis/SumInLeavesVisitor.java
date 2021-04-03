@@ -1,5 +1,6 @@
 package JavaVisitorPattern.treevis;
 
+import JavaVisitorPattern.tree.Tree;
 import JavaVisitorPattern.tree.TreeLeaf;
 import JavaVisitorPattern.tree.TreeNode;
 
@@ -15,5 +16,6 @@ public class SumInLeavesVisitor extends TreeVis {
 
     public void visitLeaf(TreeLeaf leaf) {
       	//implement this
+
     }
 }
